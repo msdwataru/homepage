@@ -1,5 +1,5 @@
 <template>
-  <div id="top">
+  <div class="prof">
     <h1>About me</h1>
     <img @mouseover="smile" @mouseleave="leave" id="robot" :src="url">
     <div id="profile">
@@ -16,21 +16,16 @@ export default {
   name: 'Profile',
   data () {
     return {
-      url: require("../assets/robot.png")
+      url: require("../assets/robot1-5.png")
       }
   },
   methods: {
     smile: function(event) {
-      //this.imgSrc = "../assets/robot2.png"  
-      this.url = require("../assets/robot2.png")
+      this.url = require("../assets/robot2-5.png")
     },
     leave: function(event) {
-      //this.imgSrc = "../assets/robot2.png"  
-      this.url = require("../assets/robot.png")
+      this.url = require("../assets/robot1-5.png")
     }
-    //test: function() {
-    //  this.msg = "Good"
-    //}
   }
 }
 </script>
@@ -42,6 +37,12 @@ export default {
 }
 #profile{
   margin-left: 30%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 </style>

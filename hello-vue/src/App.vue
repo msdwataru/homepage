@@ -40,5 +40,9 @@ export default {
   text-decoration: none;
   margin-left: 3%;
   line-height: 40px;
+
+}
+.pages:hover {
+  text-decoration: underline;
 }
 </style>

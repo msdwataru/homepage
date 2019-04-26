@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "vue-carousel": "^0.18.0"
   }
 }
