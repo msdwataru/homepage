@@ -1,4 +1,4 @@
-# How to look my web site
+# How to look this home page ?
 ```
 cd hello-vue
 npm start
